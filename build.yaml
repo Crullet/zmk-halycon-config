@@ -23,6 +23,6 @@
      snippet: studio-rpc-usb-uart
    - board: halcyon_wireless//zmk
      shield: halcyon_elora_left mod_battery_lipo mod_display_epaper_mountain
-     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_HALCYON_EPAPER_WIDGET_STATUS=y
    - board: halcyon_wireless//zmk
      shield: halcyon_elora_right mod_battery_lipo mod_cirque_hw_right
