@@ -15,6 +15,10 @@
         };
     };
 
+    &mod_display_epaper_mountain {
+        CONFIG_ZMK_WIDGET_LAYER_STATUS = y;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
