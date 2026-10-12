@@ -46,12 +46,12 @@
 
         Symbol {
             bindings = <
-&trans  &trans      &trans      &trans        &trans         &trans                                      &trans           &trans         &trans      &trans      &trans      &trans
-&trans  &kp RA(N1)  &kp RA(N2)  &kp RA(N3)    &kp RA(N4)     &kp RA(N5)                                  &kp RA(N6)       &kp RA(N7)     &kp RA(N8)  &kp RA(N9)  &kp RA(N0)  &trans
-&trans  &kp RS(N1)  &kp RS(N2)  &kp RS(N3)    &kp RS(N4)     &kp RS(N5)                                  &kp LS(N6)       &kp LS(N7)     &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
-&trans  &kp UNDER   &kp NUHS    &kp RA(NUBS)  &kp RS(EQUAL)  &kp EQUAL   &trans  &trans  &trans  &trans  &kp KP_ASTERISK  &kp LA(MINUS)  &kp NUBS    &kp PIPE2   &kp QMARK   &trans
-                                &trans        &trans         &trans      &trans  &trans  &trans  &trans  &trans           &trans         &trans
-&trans  &trans      &trans      &trans        &trans                                                                      &trans         &trans      &trans      &trans      &trans
+&studio_unlock  &trans      &trans      &trans        &trans         &trans                                      &trans           &trans         &trans      &trans      &trans      &trans
+&trans          &kp RA(N1)  &kp RA(N2)  &kp RA(N3)    &kp RA(N4)     &kp RA(N5)                                  &kp RA(N6)       &kp RA(N7)     &kp RA(N8)  &kp RA(N9)  &kp RA(N0)  &trans
+&trans          &kp RS(N1)  &kp RS(N2)  &kp RS(N3)    &kp RS(N4)     &kp RS(N5)                                  &kp LS(N6)       &kp LS(N7)     &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
+&trans          &kp UNDER   &kp NUHS    &kp RA(NUBS)  &kp RS(EQUAL)  &kp EQUAL   &trans  &trans  &trans  &trans  &kp KP_ASTERISK  &kp LA(MINUS)  &kp NUBS    &kp PIPE2   &kp QMARK   &trans
+                                        &trans        &trans         &trans      &trans  &trans  &trans  &trans  &trans           &trans         &trans
+&trans          &trans      &trans      &trans        &trans                                                                      &trans         &trans      &trans      &trans      &trans
             >;
 
             label = "Sym";
