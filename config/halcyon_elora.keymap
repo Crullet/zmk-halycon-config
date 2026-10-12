@@ -17,7 +17,6 @@
 
     keymap {
         compatible = "zmk,keymap";
-        CONFIG_ZMK_WIDGET_LAYER_STATUS=y;
 
         Base {
             bindings = <
