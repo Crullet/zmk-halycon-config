@@ -4,6 +4,7 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 2500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define CONFIG_ZMK_WIDGET_LAYER_STATUS y //enable layer status
 
 / {
     combos {
@@ -13,10 +14,6 @@
             bindings = <&mkp MCLK>;
             key-positions = <44 45>;
         };
-    };
-
-    &mod_display_epaper_mountain {
-        CONFIG_ZMK_WIDGET_LAYER_STATUS = <y>;
     };
 
     keymap {
